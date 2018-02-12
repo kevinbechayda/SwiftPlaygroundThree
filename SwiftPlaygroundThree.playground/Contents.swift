@@ -35,3 +35,23 @@ print(fruitBasket[1])
 
 print(fruitBasket[0])
 
+//Part 8, Start of Assignment #4
+
+var favoriteNumbers: [Int]
+favoriteNumbers = [3, 8, 11, 33, 38]
+print(favoriteNumbers)
+for numbers in favoriteNumbers{
+    print("My favorite number is " + String(numbers))
+}
+
+
+//remove an item from array
+
+let removed = favoriteNumbers.remove(at: 2)
+print(favoriteNumbers)
+
+//append item to array
+
+favoriteNumbers.append(83)
+print(favoriteNumbers)
+
